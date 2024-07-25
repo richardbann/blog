@@ -13,7 +13,6 @@ git branch -m main
 ```
 
 The default Remix template comes with tailwind configured.
-
 Let's add some vscode settings and extensions. Have a look at the files in `.vscode`.
 
 ## Styling
@@ -26,7 +25,17 @@ Preventing layout shift due to the scrollbar:
 </html>
 ```
 
+## Deployment
+
+It is not a trivial task to decide what are prod and dev dependencies. I have created a
+separate directory and only added files and npm packages that needed. I have moved these
+packages to "dependencies" in `package.json`. Apart from the `build` directory the `migrations` directory was needed to run the project in production mode.
+
 ## Tasks:
 
-- Configure database (decide)
+- `.env` files
 - Auth
+- Deployment
+  - how to move files? (git?, docker?)
+  - SSL terminating server (nginx?, caddy?)
+- Logging
