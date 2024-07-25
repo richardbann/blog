@@ -1,0 +1,14 @@
+{
+  "files.insertFinalNewline": true,
+  "[javascript][jsonc][html][json][css][typescript][typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "files.eol": "\n",
+  "typescript.format.enable": false,
+  "editor.tabSize": 2,
+  "prettier.printWidth": 120,
+  "typescript.tsdk": "node_modules/typescript/lib"
+}
